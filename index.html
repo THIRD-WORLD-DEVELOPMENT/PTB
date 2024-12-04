@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord PTB Client Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .download-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .download-button {
+            background-color: #5865F2;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #4752C4;
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h1>Discord PTB Client</h1>
+        <p>Public Test Build (PTB) Version</p>
+        <p>Download the latest version of Discord PTB for testing and development.</p>
+        
+        <button id="downloadButton" class="download-button">
+            Download DISCORD_CLIENT_PTB.exe
+        </button>
+
+        <p>File Size: Varies | Version: Latest</p>
+    </div>
+
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            // Replace with your actual file path or download mechanism
+            window.location.href = 'DISCORD_CLIENT_PTB.exe';
+        });
+    </script>
+</body>
+</html>
